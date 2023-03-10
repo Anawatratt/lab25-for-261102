@@ -78,4 +78,5 @@ void List::remove(int idx) {
 	Node *temp = current->next;
 	current->next = temp->next;
 	delete temp;
+	size--;
 }
